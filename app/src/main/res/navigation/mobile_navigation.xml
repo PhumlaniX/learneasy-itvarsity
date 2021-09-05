@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.learneasy_itvarsity.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.learneasy_itvarsity.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.learneasy_itvarsity.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.learneasy_itvarsity.ui.logout.LogoutFragment"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/fragment_logout" />
+
+    <activity
+        android:id="@+id/nav_settings"
+        android:name="com.learneasy_itvarsity.ui.custom.CustomActivity"
+        android:label="@string/menu_custom"
+        tools:layout="@layout/activity_custom" />
+
+    <activity
+        android:id="@+id/nav_profile"
+        android:name="com.learneasy_itvarsity.ui.profile.ProfileActivity"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/activity_profile" />
+
+    <activity
+        android:id="@+id/nav_catalogue"
+        android:name="com.learneasy_itvarsity.ui.catalogue.CatalogueActivity"
+        android:label="@string/menu_catalogue"
+        tools:layout="@layout/activity_catalogue" />
+
+</navigation>
