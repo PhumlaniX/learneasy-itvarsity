@@ -2,16 +2,25 @@
     <!-- Base application theme. -->
     <style name="Theme.Learneasyitvarsity" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryVariant">@color/color_primary_variant</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorSecondary">@color/color_secondary</item>
+        <item name="colorSecondaryVariant">@color/color_secondary_variant</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+        <item name="android:buttonStyle">@style/button</item>
+        <item name="pageBackground">@style/page_background</item>
+        <item name="textSubheader">@style/text_subheader</item>
+        <item name="textLarge">@style/text_large</item>
+        <item name="textRegular">@style/text_regular</item>
+        <item name="whiteBackground">@style/white_background</item>
+        <item name="button">@style/button</item>
+        <!--<item name="spinner">@style/spinner</item>-->
     </style>
 
     <style name="Theme.Learneasyitvarsity.NoActionBar">
