@@ -7,14 +7,14 @@ import android.os.Handler
 
 class SplashScreenActivity : AppCompatActivity() {
 
-    private val timeout : Long = 2500
+    private val timeout : Long = 3000
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash_screen)
 
         Handler().postDelayed({
-                              startActivity(Intent(this, NavDrawerActivity::class.java))
+            startActivity(Intent(this, NavDrawerActivity::class.java))
             finish()
         }, timeout)
     }
